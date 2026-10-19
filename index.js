@@ -31,10 +31,6 @@ function renderColours(data) {
 
 function copyColor(hex) {
     navigator.clipboard.writeText(hex)
-}
-
-function copyColor(hex) {
-    navigator.clipboard.writeText(hex)
         .then(() => {
             alert(`${hex} copied to clipboard!`)
         })
