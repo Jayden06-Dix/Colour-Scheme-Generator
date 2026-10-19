@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <!-- Links -->
+        <link rel="stylesheet" href="index.css">
+        <!-- Title -->
+        <title>Colour Scheme Generator</title>
+        <!-- Meta --> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <div class="container">
+        <!-- Header -->
+            <div class="cs-header">
+                <input type="color" value="#FFFFFF">
+                <select>
+                    <option value="monochrome">Monochrome</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="triad">Triad</option>
+                    <option value="quad">Quad</option>
+                </select>
+                <button type="button">Get Colour Scheme</button>
+            </div>
+        <!-- Color Scheme-->
+            <div class="cs-grid" id="cs-grid"></div>
+    </div>
+        <!-- Script -->
+            <script src="index.js"></script>
+    </body>
+</html>
